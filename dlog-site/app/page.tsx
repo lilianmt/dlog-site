@@ -1,5 +1,9 @@
+import { Hero } from "@/components";
+
 export default function Home() {
   return (
-      <p>Hello</p>
+      <main className="overflow-hidden">
+        <Hero />
+      </main>
   )
 }
